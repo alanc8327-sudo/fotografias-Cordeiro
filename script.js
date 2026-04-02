@@ -1,7 +1,7 @@
 document.getElementById("whatsappBtn").addEventListener("click", function () {
     // Substitua pelo seu número de WhatsApp
    const numero = "5519999404069";     
-    const mensagem = "Ola Juh tudo bem? Gostaria de saber mais sobre seus serviços de fotografia.";
+    const mensagem = "Ola Juh tudo bem? Tenho Interesse no Seu trabalho Fotográfico";
     const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
     window.open(url, "_blank");
 });
