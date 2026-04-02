@@ -1,9 +1,11 @@
 document.getElementById("whatsappBtn").addEventListener("click", function () {
     // Substitua pelo seu número de WhatsApp
-    const numero = "519999404069";
+   const numero = "5519999404069";     
+    const mensagem = "Olá, gostaria de saber mais sobre os seus serviços de fotografia!";
     const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
     window.open(url, "_blank");
 });
+
 
 document.getElementById("instagramBtn").addEventListener("click", function () {
     // Substitua pelo seu nome de usuário do Instagram
