@@ -74,14 +74,16 @@ header .logo {
 .trabalhos img {
   width: 100%;
   height: auto;
-  margin: 10px auto;
-  display: flex;
-  margin: 0 auto;
-  border: 1px solid #fff;
+  border: none;
   border-radius: 10px;
 
-}
 
+}
+.trabalhos p {
+  margin-right: 10%;
+  margin-left: 10%;
+
+}
 .trabalhos h2 {
   text-align: center;
   margin-bottom: 1rem;
