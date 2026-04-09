@@ -8,10 +8,10 @@
 
 
 body {
-  font-family: "Oleo Script Swash Caps", system-ui;
+    font-family: "Lobster", sans-serif;
   font-size: 30px;
-  background-color: #000;
-  color: #fff;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 header {
@@ -20,14 +20,14 @@ header {
 }
 
 header .logo {
-  width: 290px;
-  margin-bottom: 0.5rem;
-  border-radius: 10px;
+  width: 350px;
+  height: auto;
 
 }
 
 
 .galeria {
+  text-align: center;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 10px;
